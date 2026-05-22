@@ -1,0 +1,6 @@
+- Mở termial nhanh trên VScode: `cmd + J`
+- Mở setting trong VScode: `cmd + ,`
+- Kiểm tra phiên bản node đang hoạt động: `node -v`
+- Kiểm tra tất cả trên máy: `nvm list` hoặc `nvm ls`
+- Extension cần có trong khoá học:
+  - Live Server
