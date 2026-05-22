@@ -73,3 +73,32 @@ phát triển của công nghệ, nhược điểm cuả JS và lý do Typescrip
 Ngoài ra, việc nắm vững cả JS/TS sẽ giúp bạn thích nghi tốt nhất với cuộc sống khi đi làm,
 cho dù rơi vào dự án JS hay TS, đều có thể tham gia.
 ```
+
+## 1. Typescript là gì?
+
+```
+1.1 GIỚI THIỆU VỀ TYPESCRIPT
+
+TypeScript (viết tắt làTS) là một "phong cách mới" để code Javascript (JS)
+Browser chỉ có thể hiểu HTML/CSS và Javascript thuần, KHÔNG HIỂU typescript.
+Vậy làm sao để chạy được 1 project typescript?
+
+TS => TS Compiler => JS
+
+- Typescript sử dụng "cú pháp của javascript", và bổ sung thêm các cú pháp mới để
+hỗ trợ "type" (các kiểu dữ liệu).
+=> Những kiến thức đã biết về JS đều có thể áp dụng trong TS.
+
+- Để viết TS, chúng ta định nghĩa file cuối extension là .ts thay vì .js(javascript).
+-> Có thể viết code js bên trong ts và có thể rename .js thành .ts để viết code typescript
+
+1.2 TẠI SAO PHẢI DÙNG TYPESCRIPT
+
+- Ép kiểu dữ liệu chặt chẽ hơn(giảm sự freedom so với javascript).
+-> Sử dụng type để định nghĩa dữ liệu, tương tự Java, Csharp,...
+
+- Gíup hạn chế bugs, đặc biệt trong các dự án có khối lượng codebase(dòng code) lớn.
+
+// ví dụ lesson1 với JS và TS
+
+```
