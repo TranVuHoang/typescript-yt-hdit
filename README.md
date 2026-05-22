@@ -102,3 +102,5 @@ hỗ trợ "type" (các kiểu dữ liệu).
 // ví dụ lesson1 với JS và TS
 
 ```
+
+## 2. Cài đặt Compiler Typescript
