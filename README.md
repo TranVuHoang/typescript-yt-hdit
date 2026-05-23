@@ -104,3 +104,13 @@ hỗ trợ "type" (các kiểu dữ liệu).
 ```
 
 ## 2. Cài đặt Compiler Typescript
+
+```
+- CÀI TYPESCRIPT CHO DỰ ÁN:
+  `npm install typescript@4.8.3 ts-node@10.9.1 --save-dev`: cài bản TS version 4.8.3 cho project đang code.
+
+- Kiểm tra phiên bản TS đang có ở project:
+  `npx tsc -v`
+```
+
+## 3. Typescript "Hello World"
