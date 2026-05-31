@@ -141,3 +141,39 @@ Dynamic types (type động) mang tới sự freedom, tuy nhiên tự do quá th
 - Cho ra sai kết quả(nếu truyền vào sai type) => cần code bổ sung validate
 => Typescript sinh ra để khác phục nhược điểm trên.
 ```
+
+## 5.TypeScript Types
+
+```
+1. Type là gì?
+Type gồm 2 loại: keyword 'type' và 'data-types' (kiểu dữ liệu)
+Ở đây, chúng ta sẽ đề cập tới 'data-type' - kiểu dữ liệu
+
+Việc định nghĩa kiểu dữ liệu(data-types), sẽ nói cho chúng ta biết,
+biến số (variable) có những thuộc tính và functions nào
+
+Ví dụ:
+const name = "Hello";
+
+Khi nhìn vào "Hello" chúng ta sẽ nghĩ đó là string. (data-type === string)
+
+Một vài thuộc tính và function của string:
+
+console.log("Hello".length);//5
+console.log()
+
+=> Dựa vào type(data-type), trình compiler sẽ biết được 1 tham số (variable/value)
+sẽ có những nhước tính (property) và phương thức(function) nào.
+```
+
+```
+2. Các loại data-types với TS
+Tương tự như JS, TS datatype bao gồm:
+
+- Dữ liệu nguyên thuỷ
+- Dữ liệu tham chiếu
+
++ Primitive data-types: string, number, boolean, null, undefine, symbol, bigint
+
++ References data Types: Objects, Array, Functions,..
+```
