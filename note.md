@@ -10,3 +10,10 @@
 
 - Kiểm tra phiên bản TS đang có ở project:
   `npx tsc -v`
+
+- RUN FILE .ts trực tiếp trên termial:
+  ` npx ts-node main.ts`
+
+- Compiler(biên dịch) file .ts -> .js:
+  `tsc` hoặc `tsc main.ts`
+  -> nó sẽ biên dịch và tạo 1 file main.js mới

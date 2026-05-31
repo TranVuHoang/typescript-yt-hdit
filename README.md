@@ -114,3 +114,30 @@ hỗ trợ "type" (các kiểu dữ liệu).
 ```
 
 ## 3. Typescript "Hello World"
+
+file: main.ts
+console.log("Hello world");
+
+chạy terminal: `npx ts-node main.js`
+
+## 4. Tại sao cần dùng Typescript
+
+```
+TS với hệ thống Types => hạn chế bugs khi khối lượng codebase lớn (các project lớn
+nhiều members)
+
+1. DYNAMIC TYPES VỚI JAVASCRIPT(ngôn ngữ động)
+Javascript là ngôn ngữ với type động, có nghĩa là chúng ta có thể thay đổi
+"datatype" - kiểu dữ liệu. -> dễ dãi -> sida 😈
+
+Ví dụ:
+let name = "Hoàng Trần"; typeof === string
+name = 35; typeof === number
+name = false; typeof === boolean
+
+Dynamic types (type động) mang tới sự freedom, tuy nhiên tự do quá thì...
+
+2. VẤN ĐỀ VỚI DYNAMIC TYPES
+- Cho ra sai kết quả(nếu truyền vào sai type) => cần code bổ sung validate
+=> Typescript sinh ra để khác phục nhược điểm trên.
+```
